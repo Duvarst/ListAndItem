@@ -25,7 +25,7 @@ export default {
   methods: {
     quantityInArr(val) {
       let arr = [];
-      for (let i = 0; i <= val; i++) {
+      for (let i = 0; i < val; i++) {
         arr.push(i);
       }
       return arr;
